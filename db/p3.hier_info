@@ -1,0 +1,28 @@
+|p3
+clk0 => changeable.CLK
+clk0 => r3.CLK
+clk0 => r2.CLK
+clk0 => r1.CLK
+clk0 => r0.CLK
+clk0 => c3.CLK
+clk0 => c2.CLK
+clk0 => c1.CLK
+clk0 => c0.CLK
+a1 => r0.DATAIN
+a1 => c0.DATAIN
+a2 => r1.DATAIN
+a2 => c1.DATAIN
+a3 => r2.DATAIN
+a3 => c2.DATAIN
+a4 => r3.DATAIN
+a4 => c3.DATAIN
+set => always0.IN1
+set => c3.ENA
+set => c2.ENA
+set => c1.ENA
+set => c0.ENA
+endmodi => changeable.OUTPUTSELECT
+yes => pass.IN0
+reset => pass.IN1
+
+
